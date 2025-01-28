@@ -1,6 +1,13 @@
-# Nuxt Minimal Starter
+# TresJS Vue 3D Demo
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+An interactive 3D scene built with [TresJS](https://tresjs.org/) and Vue 3.
+
+## Features
+
+- Multiple animated geometric shapes
+- Interactive GUI controls for Sky and Sphere parameters
+- Orbit controls for camera navigation
+- Real-time parameter adjustments
 
 ## Setup
 
@@ -15,9 +22,6 @@ pnpm install
 
 # yarn
 yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -33,9 +37,6 @@ pnpm dev
 
 # yarn
 yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -51,25 +52,26 @@ pnpm build
 
 # yarn
 yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## Deploy on Vercel
 
-```bash
-# npm
-npm run preview
+1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
+2. Visit [Vercel](https://vercel.com)
+3. Import your repository
+4. Select the following settings:
+   - Framework Preset: Nuxt.js
+   - Build Command: `npm run build`
+   - Output Directory: `.output/public`
+5. Click "Deploy"
 
-# pnpm
-pnpm preview
+## Resources
 
-# yarn
-yarn preview
+- [TresJS Documentation](https://tresjs.org/docs)
+- [TresJS Playground](https://tresjs.org/playground)
+- [TresJS Cientos Package](https://tresjs.org/docs/packages/cientos)
+- [Nuxt Documentation](https://nuxt.com/docs)
 
-# bun
-bun run preview
-```
+## License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+MIT
