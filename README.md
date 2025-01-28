@@ -2,6 +2,8 @@
 
 An interactive 3D scene built with [TresJS](https://tresjs.org/) and Vue 3.
 
+🎮 [Live Demo](https://3-js-basic-project.vercel.app/)
+
 ## Features
 
 - Multiple animated geometric shapes
@@ -42,6 +44,8 @@ yarn dev
 ## Production
 
 Build the application for production:
+
+🎮 [Live Demo](https://3-js-basic-project.vercel.app/)
 
 ```bash
 # npm
