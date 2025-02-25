@@ -19,6 +19,12 @@ const pages = [
       "A spooky 3D haunted house scene with atmospheric effects and interactive elements.",
     path: "/haunted-house",
   },
+  {
+    title: "Imported Model",
+    description:
+      "A composable that allows you to easily load glTF models into your TresJS scene.",
+    path: "/imported-model",
+  },
 ];
 </script>
 
