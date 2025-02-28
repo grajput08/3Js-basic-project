@@ -25,6 +25,12 @@ const pages = [
       "A composable that allows you to easily load glTF models into your TresJS scene.",
     path: "/imported-model",
   },
+  {
+    title: "Environment Mapping",
+    description:
+      "Demonstrates environment mapping using TresJS's useEnvironment composable for realistic reflections and lighting.",
+    path: "/environment-map",
+  },
 ];
 </script>
 
